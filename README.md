@@ -1,5 +1,5 @@
 # vim-config
-My vimrc config
+My vimrc config.
 
 ###Plugins
 [Pathogen](https://github.com/tpope/vim-pathogen)

@@ -14,8 +14,6 @@ set ruler
 set ignorecase
 set showmatch
 set mat=3
-"hi CursorLine   guibg=#333333
-"hi LineNr       guifg=#555555
 
 "styles
 syntax on
@@ -29,13 +27,36 @@ map s :w <CR>
 map qq :q <CR>
 map <S-Left> :tabN <CR>
 map <S-Right> :tabn <CR>
+" NerdTree tab navigation
+" ctrl-l = tab to the right
+map  <C-l> :tabn<CR>
+" ctrl-h = tab to the left
+map  <C-h> :tabp<CR>
+" ctrl-n = new tab
+map  <C-n> :tabnew<CR>
+map <Alt-l> :$<CR>
+" Moving Lines up and down
+" Normal mode
+nnoremap <C-j> :m .+1<CR>==
+nnoremap <C-k> :m .-2<CR>==
+" Insert mode
+inoremap <C-j> <ESC>:m .+1<CR>==gi
+inoremap <C-k> <ESC>:m .-2<CR>==gi
+" Visual mode
+vnoremap <C-j> :m '>+1<CR>gv=gv
+vnoremap <C-k> :m '<-2<CR>gv=gv
+
+" General hot keys:
+" while in nerdtree
+"   t = open new tab with selected file
+"   shift-t = open new vim shell, i think
 
 " Console log from insert mode; Puts focus inside parentheses
 imap cll console.log();<Esc>==f(a
 " Console log from visual mode on next line, puts visual selection inside parentheses
 vmap cll yocll<Esc>p
 " Console log from normal mode, inserted on next line with word your on inside parentheses
-nmap cll yiwocll<Esc>p 
+nmap cll yiwocll<Esc>p
 
 "nerdtree
 map nt :NERDTreeTabsToggle<CR>

@@ -22,3 +22,6 @@ Info bar
 
 ###Configuration
 View [.vimrc](https://github.com/brettcelestre/vim-config/blob/master/.vimrc)
+
+# zshrc
+Adds aliases

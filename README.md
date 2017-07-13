@@ -1,4 +1,4 @@
-# vim-config
+# vimrc
 My vimrc config.
 
 ###Plugins

@@ -1,3 +1,22 @@
+# setup
+MacBook setup install script.
+
+First install X-Code, open, and accept terms and conditions.
+
+Installs:
+• Brew
+• Node
+• Slack
+• Chrome
+• Insomnia
+Sets up:
+• Git config
+
+Left to Download:
+• [Docker](https://download.docker.com/mac/stable/Docker.dmg)
+• [Sublime Text 3](https://download.sublimetext.com/Sublime%20Text%20Build%203143.dmg)
+• [Atom](https://atom.io/download/mac)
+
 # vimrc
 My vimrc config.
 

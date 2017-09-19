@@ -20,7 +20,12 @@ brew cask install google-chrome
 echo Insomnia
 brew cask install insomnia
 
+echo Sets up Git config
+git config --global user.email "bcelestre@gmail.com"
+git config --global user.name "brettcelestre"
+
 # Docker
+# OhMyZsh
 # IDE?
 # if sublime text 3 is installed, run this to create symlink for CLI commands
 # ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime

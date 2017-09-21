@@ -29,3 +29,6 @@ git config --global user.name "brettcelestre"
 # IDE?
 # if sublime text 3 is installed, run this to create symlink for CLI commands
 # ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+
+# clone .vimrc / .bash_profile from github
+# install any vim dependencies

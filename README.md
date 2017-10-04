@@ -43,3 +43,16 @@ View [.vimrc](https://github.com/brettcelestre/vim-config/blob/master/.vimrc)
 
 # zshrc
 Adds aliases
+
+#Preferences
+  ##Keyboard > Keyboard
+    - Key Repeat - Fast
+    - Delay- Short
+  ##Trackpad
+    ###Point and Click
+      - Secondary Click - Click in bottom right corner
+      - Tap to Click - Tap with one finger
+      - Click - medium
+      - Tracking Speed - Five from the left
+      - Silent Clicking - check
+      - Force Click and haptic feedback - check

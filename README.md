@@ -19,7 +19,7 @@ First install X-Code, open, and accept terms and conditions.
 # vimrc
 My vimrc config.
 
-###Plugins
+## Plugins
 [Pathogen](https://github.com/tpope/vim-pathogen)
 Allows easily installing plugins
 
@@ -35,21 +35,21 @@ Makes NerdTree work better with vim tabs
 [Airline](https://github.com/vim-airline/vim-airline)
 Info bar
 
-###Colors
+## Colors
 [Molokai](http://www.vim.org/scripts/script.php?script_id=2340)
 
-###Configuration
+## Configuration
 View [.vimrc](https://github.com/brettcelestre/vim-config/blob/master/.vimrc)
 
 # zshrc
 Adds aliases
 
-#Preferences
-  ##Keyboard > Keyboard
+# Preferences
+  ## Keyboard > Keyboard
     - Key Repeat - Fast
     - Delay- Short
-  ##Trackpad
-    ###Point and Click
+  ## Trackpad
+    ### Point and Click
       - Secondary Click - Click in bottom right corner
       - Tap to Click - Tap with one finger
       - Click - medium
